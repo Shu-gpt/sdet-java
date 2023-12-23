@@ -13,5 +13,10 @@ public class IfElse {
             System.out.println(number2+" is less then :"+number1);
 
         }
+        if(Integer.toString(number1).equals(Integer.toString(number2))){
+            System.out.println("equals");
+        }else{
+            System.out.println("not equals");
+        }
     }
 }
